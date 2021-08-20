@@ -1,0 +1,113 @@
+*{
+    font-family: 'Dosis', sans-serif;font-family: 'Dosis', sans-serif;
+}
+
+.navbar{
+    background: #fff;
+    border-bottom: 3px solid #000;
+
+    li{
+        a{
+            font-weight: 600;
+        }
+    }
+}
+
+
+#home{
+    margin-top: 75px;
+    padding: 110px 0;
+    background: linear-gradient(#3d3a3a9d, #3d3a3a9d), url(../img/bannar.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+// About - Section
+#about{
+    background: #EFEFEF;
+
+    h2,h5{
+        font-weight: 300;
+    }
+    #social-icon{
+        i{
+            font-size: 14px;
+            background: #595959;
+            color: #fff;
+            cursor: pointer;
+        }
+        i:hover{
+            background: #FFBC00;
+        }
+    }
+}
+// compleate
+#complete{
+    i{
+        font-size: 50px;
+    }
+    .box:hover i{
+        color: #FFBC00;
+        transition: .4s;
+    }
+    .box-1{
+        background: #CCCCCC;
+    }
+    .box-2{
+        background: #EFEFEF;
+    }
+}
+
+// -project
+#compleate-project{
+    .underline{
+        width: 100px;
+        height: 3px;
+        background: #4444449f;
+        display: inline-block;
+    }
+    i{
+        font-size: 45px;
+        transition: .3s;
+    }
+    .icon-box:hover i{
+        color: #ecc14a;
+    }
+}
+// Blog-Section
+#blog{
+    .underline{
+        width: 100px;
+        height: 3px;
+        background: #4444449f;
+        display: inline-block;
+    }
+    i{
+        font-size: 45px;
+        background: #333;
+        transition: .5s;
+    }
+    .icon-box:hover i{
+        background: #ecc14a;
+    }
+    .notifiachon{
+        margin-bottom: -20px;
+    }
+    span{
+        border-radius: 50%;
+        font-size: 18px;
+        font-weight: 600;
+        background: #ecc14a;
+        transition: .5s;
+    }
+    .icon-box:hover span{
+        background: #333;
+        color: #fff;
+    }
+}
+// Footer
+footer{
+    i:hover{
+        background: red;
+        cursor: pointer;
+    }
+}
